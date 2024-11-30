@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ordconf"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/confirmationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Confirmation"
+        android:textColor="#F84006"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/orderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#80412D"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:text="Espresso x2\nLatte x1\nTotal: $11.00"
+        android:textColor="#FAFAFA"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/totalPriceConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#764242"
+        android:gravity="center"
+        android:text="Total: $11.00"
+        android:textColor="#EDD8D8"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/confirmOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:textSize="18sp"
+        android:backgroundTint="#834F04"
+        android:layout_marginTop="20dp"
+        android:onClick="confirmOrder"/>
+
+
+    <Button
+        android:id="@+id/cancelOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Order"
+        android:backgroundTint="#834F04"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:onClick="cancelOrder"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onbrd"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tvcaption"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="522dp"
+        android:fontFamily="@font/aladin"
+        android:text="Chill And Brew: Refreshing Coffee Moments"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#834F04"
+        android:text="Next ->"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

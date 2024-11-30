@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@drawable/nextnew">
+
+
+    <TextView
+        android:id="@+id/tv_login_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Create Account !"
+        android:fontFamily="@font/aldrich"
+        android:textColor="#903030"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_login_subheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register to get started"
+        android:textSize="16sp"
+        android:textColor="#D1BEB8"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="8dp" />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="80dp" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:backgroundTint="#834F04"
+        android:textColor="@color/white"
+        android:layout_marginTop="65dp" />
+
+
+</LinearLayout>

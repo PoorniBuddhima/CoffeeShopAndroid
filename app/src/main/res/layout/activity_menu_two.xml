@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/coffe"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee Menu"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#A23636"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="start">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp">
+
+
+            <ImageView
+                android:id="@+id/itemImage1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/menufour" />
+
+
+            <TextView
+                android:id="@+id/itemName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espresso"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+
+            <TextView
+                android:id="@+id/itemDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strong and bold coffee."
+                android:textStyle="bold"
+                android:textColor="#A24740"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+
+
+            <TextView
+                android:id="@+id/itemPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$3.50"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp">
+
+
+            <ImageView
+                android:id="@+id/itemImage2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/menuthree" />
+
+
+            <TextView
+                android:id="@+id/itemName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latte"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+
+            <TextView
+                android:id="@+id/itemDescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smooth espresso with steamed milk."
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#A24740"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+
+
+            <TextView
+                android:id="@+id/itemPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$4.00"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="start">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp">
+
+
+            <ImageView
+                android:id="@+id/itemImage3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/menutwo" />
+
+
+            <TextView
+                android:id="@+id/itemName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cappuccino"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+
+            <TextView
+                android:id="@+id/itemDescription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espresso with steamed milk and foam."
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#A24740"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+
+
+            <TextView
+                android:id="@+id/itemPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$4.50"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp">
+
+
+            <ImageView
+                android:id="@+id/itemImage4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/menuone" />
+
+
+            <TextView
+                android:id="@+id/itemName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Americano"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+
+            <TextView
+                android:id="@+id/itemDescription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espresso diluted with hot water."
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#A24740"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+
+
+            <TextView
+                android:id="@+id/itemPrice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$3.80"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#834F04"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:backgroundTint="#E66840"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
